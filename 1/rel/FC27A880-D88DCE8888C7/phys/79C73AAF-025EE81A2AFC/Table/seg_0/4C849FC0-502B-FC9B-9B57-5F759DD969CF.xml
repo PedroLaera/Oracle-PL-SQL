@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRODUTO_VENDA_EXERCICIO" directorySegmentName="seg_0" id="4C849FC0-502B-FC9B-9B57-5F759DD969CF">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-05-18 03:52:17 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>A11D7D4B-B505-BFB7-CA26-604D066AAFE9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E468BECC-0EC7-D3E9-F1FC-35FE50141EFD</segment>
+<tableSpace>6D843F1C-CDC1-CDF6-C293-2F02A9A6A146</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUTO_VENDA_EXERCICIO_ID_PK" id="2766E3C5-AE43-05F9-4EBA-87534BF11553">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-05-18 03:52:17 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>A11D7D4B-B505-BFB7-CA26-604D066AAFE9</schemaObject>
+<segment>2278DB78-E3EC-6352-CB30-95A85E1D626E</segment>
+<tableSpace>6D843F1C-CDC1-CDF6-C293-2F02A9A6A146</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRODUTO_VENDA_EXERCICIO_PRODUTO_EXERCICIO_COD" id="E36EB334-7648-CAD8-21E1-789BE5F66AE9">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-05-18 03:52:17 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUTO_VENDA_EXERCICIO_ID_PK" id="3B884FCF-5E2A-62D0-21B4-DC0E15F7CF8F">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-05-18 03:52:17 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<segment>2278DB78-E3EC-6352-CB30-95A85E1D626E</segment>
+<tableSpace>6D843F1C-CDC1-CDF6-C293-2F02A9A6A146</tableSpace>
+<existingIndex>2766E3C5-AE43-05F9-4EBA-87534BF11553</existingIndex>
+<indexSegment>2278DB78-E3EC-6352-CB30-95A85E1D626E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

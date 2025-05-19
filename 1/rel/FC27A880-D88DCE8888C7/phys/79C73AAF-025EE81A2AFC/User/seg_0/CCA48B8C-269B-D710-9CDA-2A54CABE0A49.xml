@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="CCA48B8C-269B-D710-9CDA-2A54CABE0A49">
+<sourceConnName>AluraPLSQL</sourceConnName>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-05-18 03:51:57 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>A11D7D4B-B505-BFB7-CA26-604D066AAFE9</schemaObject>
+<defTableSpace>6D843F1C-CDC1-CDF6-C293-2F02A9A6A146</defTableSpace>
+<privileges>GLOBAL QUERY REWRITE, CREATE MATERIALIZED VIEW, SELECT ANY TABLE, CREATE TABLE, UNLIMITED TABLESPACE</privileges>
+<privilegesWithAdminOption>DEQUEUE ANY QUEUE, ENQUEUE ANY QUEUE, MANAGE ANY QUEUE</privilegesWithAdminOption>
+</UserOraclev10g>
